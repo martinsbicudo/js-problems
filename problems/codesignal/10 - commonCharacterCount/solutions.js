@@ -13,4 +13,7 @@ function solution(s1, s2) {
     }, 0)
 }
 
-console.log(solution('aabcc', 'adcaa'))
+function solution2(s1, s2) {
+    const stringWithReplaces = [...s1].reduce((string, letter) => string.replace(letter, '?'), s2)
+    return stringWithReplaces.split('?').length - 1
+}
