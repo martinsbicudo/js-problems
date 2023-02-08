@@ -1,3 +1,2 @@
-const solution = (numbers) => {
-    return Math.max(...numbers) - Math.min(...numbers) - (numbers.length - 1)
-}
+const solution = (numbers) =>
+  Math.max(...numbers) - Math.min(...numbers) - (numbers.length - 1)

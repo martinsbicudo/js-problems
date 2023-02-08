@@ -1,13 +1,13 @@
 function solution(matrix) {
-    const amountFloorRooms = matrix[0].length
-    let rooms = matrix.flat()
+  const amountFloorRooms = matrix[0].length
+  let rooms = matrix.flat()
 
-    return rooms.reduce((currentAmount, room, i) => {
-        if (rooms[i-amountFloorRooms] === 0) {
-            rooms[i] = 0
-            return currentAmount
-        }
+  return rooms.reduce((currentAmount, room, i) => {
+    if (rooms[i-amountFloorRooms] === 0) {
+      rooms[i] = 0
+      return currentAmount
+    }
 
-        return currentAmount + room
-    }, 0)
+    return currentAmount + room
+  }, 0)
 }

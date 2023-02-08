@@ -30,7 +30,7 @@ Given matrix, a rectangular matrix of integers, where each value represents the 
 
   the output should be solution(matrix) = 9.
 
-    <img src="./example2.png" width="500" />
+  <img src="./example2.png" width="500" />
 
   Note that the free room in the final column makes the full column unsuitable for bots (not just the room directly beneath it). Thus, the answer is 1 + 1 + 1 + 5 + 1 = 9.
 
