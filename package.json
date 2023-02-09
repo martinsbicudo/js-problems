@@ -1,12 +1,14 @@
 {
 	"scripts": {
 		"test": "ava",
-		"test:watch": "ava --watch"
+		"test:watch": "ava --watch",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"ava": "^5.2.0"
+		"ava": "^5.2.0",
+		"husky": "^8.0.3"
 	},
-  "ava": {
+	"ava": {
 		"files": [
 			"**/**/test.js"
 		]
