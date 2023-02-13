@@ -11,3 +11,5 @@ function solution(matrix) {
     return currentAmount + room
   }, 0)
 }
+
+module.exports.solution = solution

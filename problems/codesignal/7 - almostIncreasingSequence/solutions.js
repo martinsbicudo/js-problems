@@ -9,3 +9,5 @@ function solution(numbers) {
 
   return true
 }
+
+module.exports.solution = solution

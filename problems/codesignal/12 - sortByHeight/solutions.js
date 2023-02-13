@@ -9,3 +9,5 @@ function solution(a) {
 
   return heights
 }
+
+module.exports.solution = solution

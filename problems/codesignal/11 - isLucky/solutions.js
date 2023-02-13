@@ -9,3 +9,5 @@ function solution(n) {
 
   return sums.left === sums.right
 }
+
+module.exports.solution = solution

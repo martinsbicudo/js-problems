@@ -17,3 +17,6 @@ function solution2(s1, s2) {
   const stringWithReplaces = [...s1].reduce((string, letter) => string.replace(letter, '?'), s2)
   return stringWithReplaces.split('?').length - 1
 }
+
+module.exports.solution = solution
+module.exports.solution2 = solution2

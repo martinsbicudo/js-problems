@@ -7,3 +7,6 @@ function solution2(stringArray) {
   const biggestLength = Math.max(...stringArray.map((string) => string.length))
   return stringArray.filter((string) => string.length === biggestLength)
 }
+
+module.exports.solution = solution
+module.exports.solution2 = solution2

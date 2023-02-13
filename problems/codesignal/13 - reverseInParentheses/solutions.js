@@ -27,3 +27,6 @@ function solution2(string) {
 
   return result
 }
+
+module.exports.solution = solution
+module.exports.solution2 = solution2
